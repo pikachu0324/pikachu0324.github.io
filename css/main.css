@@ -1,15 +1,19 @@
 body {
   margin: 0;
+  background-image: url(../img/background.png);
 }
+
 .ntua_food_top {
   background-color: #474747;
   height: 35px;
   color: #ffffff;
+  left: calc(100% - 400px);
 }
 .ntua_food_top ul {
   display: inline-block;
-  padding: 0;
-  margin: 0;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
 }
 .ntua_food_top a {
   display: inline-block;
@@ -19,14 +23,115 @@ body {
   display: inline-block;
   height: 20px;
 }
+.icon {
+  text-align: right;
+}
+.nav {
+  text-decoration: none;
+  display: inline-block;
+}
+.nav :hover {
+  background-color: #dbdfd0;
+  border-radius: 30px;
+}
+.nav a {
+  color: #000000;
+  padding: 20px;
+}
 
 .ntua_food_nav img {
   display: inline-block;
   height: 50px;
+  padding: 20px;
+}
+.ntua_food_nav {
+  background-color: #ffffff;
 }
 .ntua_food_nav a {
   text-decoration: none;
+  vertical-align: middle;
+}
+.ntua_food_nav ul {
+  padding: 40px;
+  margin: 0;
+  text-decoration: none;
+  vertical-align: middle;
+  text-align: right;
 }
 .ntua_food_nav li {
   display: inline-block;
+}
+.ntua_food_nav ul li a {
+  margin: 5px;
+  padding: 10px;
+}
+.reserve button {
+  display: inline-block;
+  position: relative;
+  width: 128px;
+  height: 60px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--neutral-07, #182226);
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 118px;
+  border: 2px solid var(--neutral-07, #2c2f24);
+}
+.reserve {
+  display: inline-block;
+}
+.reserve :hover {
+  color: #ffffff;
+  background-color: #525252;
+}
+.title {
+  color: var(--neutral-07, #2c2f24);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 90px;
+  font-style: normal;
+  line-height: 96px;
+  margin-top: 120px;
+}
+p {
+  display: block;
+  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.main-button {
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 0px;
+  display: inline-block;
+  justify-content: center;
+  margin-top: 0px;
+  gap: 15px;
+}
+.main-button button {
+  display: inline-block;
+  position: relative;
+  width: 128px;
+  height: 60px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--neutral-07, #182226);
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 118px;
+  border: 2px solid var(--neutral-07, #2c2f24);
+}
+.main-button :hover {
+  color: #ffffff;
+  background-color: #ad343e;
 }
