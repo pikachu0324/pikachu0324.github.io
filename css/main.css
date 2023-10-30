@@ -1,116 +1,32 @@
-.ntua_vcd_top_nav {
-  background-color: #5d5d5d;
-  padding: 8px;
-  height: calc(100% - 160px);
+body {
+  margin: 0;
 }
-.ntua_vcd_top_nav a {
-  text-decoration: none;
+.ntua_food_top {
+  background-color: #474747;
+  height: 35px;
   color: #ffffff;
-  vertical-align: middle;
 }
-.ntua_vcd_top_nav ul li a {
+.ntua_food_top ul {
   display: inline-block;
   padding: 0;
   margin: 0;
-  vertical-align: middle;
 }
-
-.ntua_vcd_nav {
-  background-color: #ffffff;
-  padding: 50px;
-}
-/*
-  空白鍵代表＝>所有子階層
-  */
-.ntua_vcd_nav a {
-  text-decoration: none;
-  color: #ffffff;
-  vertical-align: middle;
-}
-.ntua_vcd_nav ul {
+.ntua_food_top a {
   display: inline-block;
-  /*
-      padding=>內距
-      margin=>外距
-      */
-  padding: 0;
-  margin: 0;
-  vertical-align: middle;
-  /*
-      calc()=>進行簡易計算，可用+-
-      */
-  width: calc(100% - 160px);
-  /*
-  text-align=>文字對齊，left/right/center
-  */
-  text-align: right;
 }
-.ntua_vcd_nav li {
+
+.ntua_food_top ul > a > img {
   display: inline-block;
-  vertical-align: relative;
-}
-.ntua_vcd_nav img {
-  width: 150px;
+  height: 20px;
 }
 
-.ntua_vcd_nav ul li a {
-  padding: 10px;
-  /*
-    margin: 10px;
-    */
-}
-.ntua_vcd_nav ul li a:hover {
-  color: #99d04d;
-}
-.ntua_vcd_nav .submenu {
-  background-color: #8baac1;
-  width: 150px;
-  position: absolute;
-  text-align: center;
-
-  /*
-  position:absolute:絕對位置
-          relative:相對位置
-          fixed:固定位置
-  */
-  /*
-  使用position:absolution
-  */
-  top: 70px;
-  left: calc(50% - 75px);
-  display: none;
-}
-.ntua_vcd_nav .submenu li {
-  display: block;
-  position: relative;
-}
-/*當系所成員滑過後，２階層選單出現*/
-.ntua_vcd_nav li:hover .submenu {
-  display: block;
-}
-/*gotop btn*/
-.gotop {
-  width: 50px;
+.ntua_food_nav img {
+  display: inline-block;
   height: 50px;
-  background-color: #99d04d;
-  text-align: center;
-  position: fixed;
-  left: calc(100vw - 70px);
-  top: calc(100vh - 70px);
-  /*
-    1個數值=>上下左右共用一個設定
-    2個數值=>上下/左右共用一個設定
-    4個數值=>上下左右分別設定
-    */
-  border-radius: 10px;
-  /*
-    box-shadow=>陰影
-    前面3個數字=>x偏移/y偏移/擴散大小
-    rgba();rgb=>顏色;a=>alpha=>透明度0-1
-    */
 }
-.gotop .material-symbols-outlined {
-  color: #ffffff;
-  font-size: 30px;
-  line-height: 50px;
+.ntua_food_nav a {
+  text-decoration: none;
+}
+.ntua_food_nav li {
+  display: inline-block;
 }
